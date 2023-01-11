@@ -1,0 +1,17 @@
+.skill-icon{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+
+.skill-icon{
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
